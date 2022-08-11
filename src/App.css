@@ -1,4 +1,107 @@
 *{
-    color:blue;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    color: #FFFFFF;
+    height: 100vh;
+    background-color: #23252C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container{
+    width: 317px;
+    height: 780px;
+    position: relative;
+    background-color: #1A1B21;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.portrait-img{
+    width: 317px;
+    height: 317px;
+}
+
+.details-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.details-container *{
+    margin-top: 7px;
+}
+.details-container h4{
+    color: #F3BF99
+}
+.contactBtns-container{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.contactBtns-container > button{
+    gap: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:115px;
+    border-radius: 6px;
+    border:none;
+
+}
+.linkedin-btn{
+    padding: 9px 13px 9px 11px;
+    background-color: #5093E2;
+    color: #FFFFFF;
+    
+}
+.email-btn{
+ 
+    padding: 9px 13px 9px 11px;
+   
+}
+.description-container{
+    padding:  0 35px;
+}
+.description-container > p{
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #DCDCDC;
+}
+.description-container > h2{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 27px;
+}
+.footer-container{
+    position: absolute;
+    width: 100%;
+    bottom:0;
+    padding: 0 73px;
+    background-color: #161619;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    color: #918E9B;
+}
+button:hover{
+    cursor: pointer;
+    filter: brightness(0.8);
+}
+.footer-container *:hover{
+    cursor: pointer;
+    filter: brightness(1.2);
 }
